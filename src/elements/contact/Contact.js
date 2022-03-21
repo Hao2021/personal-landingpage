@@ -8,10 +8,10 @@ import ContactOne from "./ContactOne";
 const Contact = () => {
     return (
         <>
-            <SEO title="Contact || Doob - React Business  Template" />
+            <SEO title="Contact || Sunhao" />
             <Layout>
                 <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
+                    title="Let's get in touch"
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Contact"
@@ -25,8 +25,8 @@ const Contact = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Contact Form"
-                                        title = "Our Contact Address Here."
+                                        subtitle = "Contact Detail"
+                                        title = "My contact Address"
                                         description = ""
                                     />
                                 </div>

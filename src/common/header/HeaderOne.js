@@ -16,11 +16,11 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
     let [check, setCheck] = useState(true);
     const sticky = useStickyHeader( 50 );
     const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`
-    const { clientHeight } = ref;
+    // const { clientHeight } = ref;
     
-    const checkChange = (value) => {
-      setCheck(value);
-    };
+    // const checkChange = (value) => {
+    //   setCheck(value);
+    // };
 
     return (
         <>

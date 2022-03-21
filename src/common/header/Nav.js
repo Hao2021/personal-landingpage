@@ -4,7 +4,10 @@ import {Link} from "react-router-dom";
 const Nav = () => {
     return (
         <ul className="mainmenu">
+            <li className="has-droupdown"><Link to="/">Home</Link></li> 
+            <li className="has-droupdown"><Link to="/contact">Contact</Link></li> 
             <li className="has-droupdown"><a href="https://www.sunhao-blog.herokuapp.com">Blog</a></li>
+
             {/* <li className="has-droupdown"><Link to="#">Home</Link>
                 <ul className="submenu">
                     <li><Link to="/business-consulting">Business Consulting</Link></li>
